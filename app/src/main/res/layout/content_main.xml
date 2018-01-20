@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.moises.showmessage.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_show_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Toast"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_show_snackbar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:text="Show snackbar"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_vertical"/>
+
+
+        <Button
+            android:id="@+id/btn_show_dialog"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:text="Show dialog"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_show_progress_dialog"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:text="Show progress dialog"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_show_dialog_with_edit_text"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:text="Show dialog with edittext"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
